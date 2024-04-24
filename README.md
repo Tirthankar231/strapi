@@ -55,3 +55,8 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 ---
 
 <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+
+## Things I Worked On
+Changed the logo of auth and menu to ONDC
+Changed the app name to ONDC OMS
+Added 2 users one is restricted and other is authenticated.
