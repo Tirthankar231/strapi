@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "order_items",
+  "info": {
+    "singularName": "order-item",
+    "pluralName": "order-items",
+    "displayName": "OrderItem",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "quantity": {
+      "type": "biginteger"
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "item_id": {
+      "type": "uid"
+    },
+    "orderItem": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::order.order",
+      "inversedBy": "orders"
+    }
+  }
+}
